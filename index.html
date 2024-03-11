@@ -2,9 +2,57 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>First HTML</title>
+    <title>Haerin Lee's Portfolio</title>
+    <style>
+      body {
+        background-color: antiquewhite;
+      }
+      h1 {
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+      .float-container {
+        width: 800px;
+        height: 200px;
+        margin: 50px;
+        line-height: 20px;
+      }
+
+      .float-container img {
+        float: left;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 70%;
+        width: 400px;
+        height: 400px;
+      }
+
+      .info li {
+        font-size: medium;
+        line-height: 40px;
+      }
+    </style>
   </head>
   <body>
-    Hello, html!
+    <h1>안녕하세요, 개발 공부를 열심히 하고 있는 이해린이라고 합니다.</h1>
+
+    <div class="float-container">
+      <img src="https://avatars.githubusercontent.com/u/104803812?v=4" />
+      <p style="padding-top: 10%">
+        대학에서 소프트웨어학부를 전공하지만, 학교에서는 배우지 못하는 웹 개발을
+        공부하고 싶어 프로그래머스 데브코스와 함께 공부중입니다.
+      </p>
+      <p>6개월 뒤에는 훨씬 성장한 개발자가 되고 싶습니다</p>
+    </div>
+    <div style="padding-left: 20px">
+      <ul class="info">
+        <li>📧haerin.lee.218@gmail.com</li>
+        <li>🎂2001.02.18</li>
+        <li>🐱<a href="https://github.com/rin00000">github</a></li>
+        <li>🏠<a href="https://r-ing.tistory.com">blog</a></li>
+      </ul>
+    </div>
   </body>
 </html>
