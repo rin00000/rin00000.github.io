@@ -1,1 +1,0 @@
-# rin00000.github.io
